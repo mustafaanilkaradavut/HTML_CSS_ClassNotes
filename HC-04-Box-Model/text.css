@@ -1,0 +1,40 @@
+h1 {
+  color: blue;
+  text-align: center;
+  border: 2px solid red;
+}
+
+#par1 {
+  color: red;
+  text-align: center;
+  text-indent: 30px;
+  letter-spacing: 5px;
+  column-count: 3;
+  column-rule: 3px double blue;
+  font-size: 1.5rem;
+}
+#par2 {
+  color: purple;
+  text-align: right;
+  line-height: 1.5;
+}
+#par3 {
+  color: green;
+  text-align: justify;
+  text-decoration: overline;
+  text-shadow: 5px 5px 5px black;
+}
+#par4 {
+  color: chocolate;
+  text-transform: capitalize;
+  text-decoration: underline;
+  direction: rtl;
+  unicode-bidi: bidi-override;
+  /* For arabic language we can use direction right */
+}
+#par5 {
+  color: blue;
+  text-transform: uppercase;
+  text-align: justify;
+  text-decoration: line-through;
+}

@@ -1,0 +1,5 @@
+p {
+  color: blue;
+}
+
+/* Renk vermek istediğimizde 3 farklı yerde vermek istersek. External, internal ve inline elementler olarak; Sonuç şu şekilde olur önce inline - sonra internal en son external öncelikli olur. */

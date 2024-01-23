@@ -1,0 +1,37 @@
+#list {
+  border: 3px solid black;
+  list-style-type: none;
+}
+
+li {
+  background-color: aquamarine;
+}
+
+span {
+  color: blue;
+}
+
+span:hover {
+  color: darkblue;
+}
+
+li:hover {
+  font-weight: 900;
+  cursor: pointer;
+}
+
+h1 {
+  color: brown;
+}
+
+.abc {
+  font-size: 3rem;
+  background-color: yellow;
+}
+
+#abc {
+  font-size: 1rem;
+  background-color: deepskyblue;
+}
+
+/* ID > Class meaning is VS Code using ID elements before Class elements*/

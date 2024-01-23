@@ -1,0 +1,38 @@
+.container {
+  border: 2px red solid;
+  width: 20rem;
+  height: 20rem;
+  margin: 50px auto;
+  padding: 10px;
+  text-align: justify;
+  color: whitesmoke;
+  text-shadow: 2px 2px 2px green;
+  overflow: scroll;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px black;
+
+  /* background-image: url(./images/IMG_0805.heic); */
+  background-image: linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0.498),
+      rgba(0, 0, 0, 0.525)
+    ),
+    url(./images/IMG_0805.heic);
+  background-size: 250px 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* This code for scroll compatibility. We can dispose scroll bar. */
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.container2 {
+  border: 2px solid blue;
+  width: 20rem;
+  height: 20rem;
+  margin: auto;
+  background-image: linear-gradient(to right, red, black);
+}

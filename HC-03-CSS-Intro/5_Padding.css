@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  background-color: lightcoral;
+  margin: 50px;
+  border: 2px solid gold;
+  text-align: center;
+}
+
+.div1 {
+  background-color: aqua;
+  width: 150px;
+  height: 150px;
+  margin-top: 250px;
+}
+
+.div2 {
+  background-color: mediumspringgreen;
+  width: 150px;
+  height: 150px;
+  border: 5px solid black;
+  padding: 10px;
+}
+
+.div3 {
+  background-color: orange;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+
+span {
+  background-color: rebeccapurple;
+  font-size: 2rem;
+  margin: auto;
+  width: 500px;
+  height: 500px;
+}

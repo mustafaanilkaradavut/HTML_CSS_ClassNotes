@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Amita:wght@400;700&display=swap");
+
+.font1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 900;
+  font-family: "Amita", serif;
+  text-transform: lowercase;
+  /* The Rules: The code accept last elemet in this class.  */
+}
+.font2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 400;
+  font-family: "Fontweb";
+}
+.font3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2rem;
+  font-variant: small-caps;
+}
+.font4 {
+  font-family: "Satisfy", cursive;
+  font-variant: inherit;
+}
+
+@font-face {
+  font-family: "Fontweb";
+  src: url(./fonts/NotoSansJP-VariableFont_wght.ttf);
+}

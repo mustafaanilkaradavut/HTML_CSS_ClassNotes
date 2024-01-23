@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>Forms</h1>
+    <form action="result.html" method="get">
+      <!-- Using For Label and İnput -->
+
+      <div>
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="User Name:"
+          required
+          placeholder="Please Enter Your Name" />
+        <br />
+        <label for="surname">Surname:</label>
+        <input
+          type="text"
+          id="surname"
+          name="User Surname"
+          required
+          placeholder="Please Enter Your Surname" />
+      </div>
+
+      <!-- Password -->
+
+      <div>
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          name="User Password"
+          id="password"
+          required
+          placeholder="Place Enter Your Passoword" />
+      </div>
+      <!-- Email -->
+      <div>
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          name="User Email"
+          id="email"
+          required
+          placeholder="Please Enter Your Email" />
+      </div>
+
+      <!-- Radio -->
+
+      <div>
+        <p>Gender:</p>
+        <label for="gender1">Male</label>
+        <input type="radio" id="gender1" name="Gender" value="man" />
+        <label for="gender2">Female</label>
+        <input type="radio" id="gender2" name="Gender" value="female" />
+        <label for="gender3">Other</label>
+        <input type="radio" name="Gender" id="gender3" value="other" />
+      </div>
+
+      <!-- Checkbox -->
+
+      <div>
+        <p>What's Your Favourite Animal?:</p>
+
+        <input type="checkbox" name="bear" id="animal_1" value="Bear" />
+        <label for="bear">Bear</label>
+
+        <input
+          type="checkbox"
+          name="tarantula"
+          id="animal_2"
+          value="Tarantula" />
+        <label for="tarantula">Tarantula</label>
+
+        <input type="checkbox" name="monkey" id="animal_3" value="Monkey" />
+        <label for="monkey">Monkey</label>
+      </div>
+
+      <!-- Number -->
+
+      <div>
+        <label for="age">Age:</label>
+        <input
+          type="number"
+          name="User Age"
+          id="age"
+          min="18"
+          max="45"
+          step="1" />
+      </div>
+
+      <!-- Search -->
+
+      <div>
+        <label for="search">Searching Word:</label>
+        <input type="search" name="searching" id="search" />
+      </div>
+
+      <!-- Color -->
+
+      <div>
+        <label for="color">Please Choose Color:</label>
+        <input type="color" name="Choosing Color" id="color" />
+      </div>
+
+      <!-- Date -->
+
+      <div>
+        <label for="date">Choose Date:</label>
+        <input
+          type="date"
+          name="date"
+          id="date"
+          min="2022-01-01"
+          max="2023-12-31" />
+      </div>
+
+      <!-- File -->
+
+      <div>
+        <label for="file">Choose File:</label>
+        <input type="file" name="File" id="file" />
+      </div>
+
+      <!-- Phone Number -->
+
+      <div>
+        <label for="tel">Enter Your Phone Number</label>
+        <input
+          type="tel"
+          name="Telephone Phone"
+          id="tel"
+          pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+          placeholder="XXX-XXX-XX-XX" />
+      </div>
+
+      <!-- Select -->
+
+      <div>
+        <label for="desert">Which Desert Do You Like?</label>
+        <br />
+        <select name="choosing desert" id="desert">
+          <option value="Sutlac">Sutlac</option>
+          <option value="Keskul">Keskul</option>
+          <option value="Baklava">Baklava</option>
+          <option value="Helva">Helva</option>
+        </select>
+      </div>
+      <hr />
+
+      <div>
+        <label for="desert2">Which Desert Do You Like?</label>
+        <br />
+        <select name="choosing desert" id="desert2" size="10" multiple>
+          <optgroup label="Desert with Milk">
+            <option value="Sutlac">Sutlac</option>
+            <option value="Keskul">Keskul</option>
+            <option value="Kazandibi">Kazandibi</option>
+            <option value="Helva">Helva</option>
+          </optgroup>
+
+          <optgroup label="Desert with Sugar">
+            <option value="Kadayif">Kadayif</option>
+            <option value="Baklava">Baklava</option>
+            <option value="KemalPasa">KemalPasa</option>
+            <option value="Sekerpara">Sekerpare</option>
+          </optgroup>
+        </select>
+      </div>
+      <hr />
+
+      <!-- Textarea -->
+
+      <div>
+        <label for="yorum">Comment:</label>
+        <textarea
+          name="user_comment"
+          id="yorum"
+          style="width: 50%; height: 150px; resize: none"></textarea>
+      </div>
+
+      <!-- Datalist -->
+
+      <div>
+        <label for="input-browser">Browser:</label>
+        <input
+          type="text"
+          name="Using_Browser"
+          id="input-browser"
+          list="browser" />
+
+        <datalist id="browser">
+          <option value="Chrome"></option>
+          <option value="Opera"></option>
+          <option value="Safari"></option>
+          <option value="Brave"></option>
+          <option value="Firefox"></option>
+        </datalist>
+      </div>
+
+      <!-- Fieldset -->
+
+      <div>
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label for="">Name:</label>
+          <input type="text" name="name" placeholder="Your Name" />
+          <br />
+          <label for="">Surname</label>
+          <input type="text" name="surname" placeholder="Your Surname" />
+        </fieldset>
+      </div>
+
+      <br /><br /><br /><br /><br /><br /><br />
+      <input type="reset" value="reset" />
+      <input type="submit" value="Send" />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Session 4 - CSS</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      p {
+        color: blueviolet;
+      }
+
+      .box-model {
+        margin: 20px 15px 50px 30px;
+        border: 5px solid greenyellow;
+        padding: 10px 5px 15px;
+        text-align: justify;
+      }
+
+      #margin-auto {
+        color: black;
+        background-color: skyblue;
+        width: fit-content;
+        margin: auto;
+        text-align: center;
+        /* Eğer biz width ile yazı kadar border oluşturmazsak marginimiz ortalayamaz çünkü tüm sayfayı kaplamış olur. Text-align block elementin containerini, margin element ise block elementin kendisini ortalar. */
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi,
+      dolorum?
+    </p>
+    <p style="color: aquamarine">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi,
+      dolorum?
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi,
+      dolorum?
+    </p>
+    <p style="color: yellow">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi,
+      dolorum?
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi,
+      dolorum?
+    </p>
+
+    <!-- BOX MODEL -->
+
+    <p class="box-model">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, earum.
+      Qui incidunt beatae, tempore, sit id illum officia commodi quos eveniet
+      temporibus aliquam, velit hic laboriosam veniam illo doloribus tenetur.
+    </p>
+
+    <p id="margin-auto">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, ea!
+    </p>
+
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id non rerum
+      harum vero, commodi velit officiis qui sit voluptate. Placeat.
+    </p>
+  </body>
+</html>

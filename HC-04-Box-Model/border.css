@@ -1,0 +1,43 @@
+.par1 {
+  border: 2px solid rebeccapurple;
+  text-align: center;
+}
+.par2 {
+  border-width: 4px;
+  border-style: dotted;
+  border-color: brown;
+}
+.par3 {
+  border: 3px double green;
+}
+.par4 {
+  border: 6px dashed lightseagreen;
+}
+.par5 {
+  border: 8px outset chocolate;
+  text-align: center;
+  width: 350px;
+  margin: auto;
+}
+
+.span-container {
+  border: 5px solid blue;
+  text-align: center;
+}
+
+/* Margin Align  auto doesn't work because .span-container is a inline element. */
+/* You can NOT give width and height to inline elements! Margin and padding taken only left and right side*/
+
+#span1 {
+  border: 10px double red;
+  /* text-align: center; */
+  display: block;
+  width: 150px;
+  text-align: center;
+  margin: auto;
+}
+
+#photo{
+    text-align: center;
+    margin: auto;
+}

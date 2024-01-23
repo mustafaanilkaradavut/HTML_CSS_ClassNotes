@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inline Internal</title>
+
+    <style>
+      #par {
+        background-color: chocolate;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        color: blue;
+      }
+
+      img {
+        width: 300px;
+        height: 300px;
+        border: 5px solid rebeccapurple;
+        border-radius: 25%;
+      }
+
+      .img-div {
+        border: 5px solid red;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Inline Internal</h1>
+
+    <div id="par">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quo
+      possimus ratione voluptate maxime fugit nemo voluptatum, laborum modi
+      error nisi sint sit rem officia.
+    </div>
+
+    <div class="img-div">
+      <img
+        src="https://cdn.pixabay.com/photo/2013/05/14/16/28/spider-111075_1280.jpg"
+        alt="" />
+      <img
+        src="https://cdn.pixabay.com/photo/2018/09/09/14/36/brachypelma-smithi-3664725_1280.jpg"
+        alt="" />
+    </div>
+
+    <!-- 
+        * Inline CSS is added to the  HTML elements with style keyword.
+        * The inside of the word name of style is actually "CSS Area"
+        * Performs a stylization only for the added element.
+        * This is not a very paratic method.
+        * It complicates the appearance of the code, as it crowdizes HTML codes.
+     -->
+  </body>
+</html>

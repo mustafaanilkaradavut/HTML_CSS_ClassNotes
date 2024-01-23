@@ -1,0 +1,18 @@
+#par3 {
+  background-color: chartreuse;
+}
+
+#par4 {
+  background-color: chocolate;
+}
+
+.both {
+  background-color: crimson;
+}
+
+/* Important rule; when using external and internal CSS using by same class or id, the important thing is import place !  */
+/* inline > internal and external       BUT         External and Internal equal, just important thing is place import */
+
+#par5 {
+  background-color: darkslateblue;
+}

@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Jaldi&family=Roboto+Mono:ital@0;1&display=swap");
+
+* {
+  margin: 0;
+}
+
+ul.languages {
+  border: 2px solid red;
+  /* Madde imi styles */
+  list-style-type: none;
+  list-style-type: square;
+  list-style-type: circle;
+  list-style-type: disc;
+
+  /* Madde imleri Li'lerin içinde mi yoksa dışında mı? */
+  /* Default olarak outside olarak gelir. Noktalama işaretleri dışarıdadır. Fakat inside yaparsak içeri girer. */
+  list-style-position: inside;
+
+  list-style-image: url(./images/house-solid.svg);
+  color: red;
+}
+
+h2 {
+  color: purple;
+}
+
+body {
+  font-family: "Fjalla One", sans-serif;
+  font-family: "Jaldi", sans-serif;
+  font-family: "Roboto Mono", monospace;
+}
+
+ul.languages li {
+  background-color: rgba(0, 128, 0, 0.414);
+  margin: 5px;
+  width: 250px;
+  border-radius: 5px;
+  padding-left: 20px;
+  border: 1px solid blue;
+  border-left: 10px solid black;
+  font-family: "Fjalla One", sans-serif;
+}
+
+ul.languages li::before {
+  content: "\1F4F5";
+  display: inline-block;
+  width: 14px;
+  height: 16px;
+  /* background-image: url(./images/house-solid.svg); */
+  margin-right: 10px;
+  margin-left: 5px;
+  /* background-color: rgba(255, 0, 0, 0.166); */
+}
+
+ul.languages li:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+h2 i {
+  color: tomato;
+}
+
+/*! PSEUDO CLASSES  */
+
+ul.pseudo li:first-child {
+  color: red;
+}
+ul.pseudo li:last-child {
+  color: blueviolet;
+  font-family: "Grape Nuts", cursive;
+}
+
+ul.pseudo li:nth-child(3) {
+  color: darkgoldenrod;
+}
+
+ul.pseudo li:nth-child(odd) {
+  background-color: hotpink;
+}
+
+ul.pseudo li:nth-child(even) {
+  background-color: mediumslateblue;
+}
+
+ul.pseudo li:hover {
+  background-color: teal;
+}
+
+ul.pseudo li:active {
+  background-color: saddlebrown;
+  color: white;
+}
+
+input:focus {
+  background-color: silver;
+  color: firebrick;
+  border: 4px solid honeydew;
+}
+
+/* LINK PSUEDO CLASSES */
+
+nav.link a:link {
+  color: red;
+}
+
+nav.link a:visited {
+  color: blue;
+}
+
+nav.link a:active {
+  color: rebeccapurple;
+}
+
+nav.link a:hover {
+  color: aqua;
+}
+
+nav.cw a {
+  text-decoration: none;
+  border: 2px solid darkgoldenrod;
+  padding: 5px;
+  margin: 10px;
+  color: aquamarine;
+  background-color: blueviolet;
+  border-radius: 10px;
+}
+
+nav.cw a:hover {
+  background-color: gray;
+  color: coral;
+}
+
+nav.cw a:hover i {
+  color: blue;
+}
+
+nav a i {
+  font-size: 1.2rem;
+}
+
+/* ":" Class'larda var olan bir element üzerinden işlem yaparız. "::" bu yol ile var olmayan bir elementi oluşturup işlem yapabiliriz. */
+
+/*! PSUEDO ELEMENTS */
+
+.p-elements::first-line {
+  color: red;
+}
+
+.p-elements::first-letter {
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 800;
+  color: blue;
+}
+
+ul.before-after {
+  list-style-type: none;
+}
+
+ul.before-after li {
+  background-color: aquamarine;
+  margin: 0.5rem;
+  width: 20%;
+  border-radius: 10px;
+  /* padding-left: 20px; */
+  text-align: center;
+}
+
+ul.before-after li::before {
+  content: "🚗";
+  margin: 10px;
+}
+
+ul.before-after li:nth-child(2)::after {
+  content: "🏎️";
+  margin: 10px;
+}
