@@ -25,13 +25,11 @@ body {
   width: 50%;
   height: 100%;
 }
-
 .div4 {
   background-color: rgba(46, 139, 86, 0.404);
   width: 50vw;
   height: 12vh;
 }
-
 /* "VW" and "WH" affect directly from browser. */
 
 .div5 {
