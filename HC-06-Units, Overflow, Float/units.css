@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  border: 2px solid red;
+}
+
+.abs {
+  background-color: chocolate;
+  width: 350px;
+  width: 10cm;
+  width: 5in;
+}
+
+.div2 {
+  background-color: aquamarine;
+  width: 50%;
+  height: 200px;
+}
+
+.div3 {
+  background-color: rgba(165, 42, 42, 0.77);
+  width: 50%;
+  height: 100%;
+}
+
+.div4 {
+  background-color: rgba(46, 139, 86, 0.404);
+  width: 50vw;
+  height: 12vh;
+}
+
+/* "VW" and "WH" affect directly from browser. */
+
+.div5 {
+  font-size: 25px;
+}
+.div6 {
+  font-size: 2em;
+}
+.div7 {
+  font-size: 2em;
+}
+
+.div8 {
+  font-size: 25px;
+}
+.div9 {
+  font-size: 5rem;
+}
+.div10 {
+  font-size: 5rem;
+}
+
+/* Difference EM and REM : Family is important for EM but REM get the size from HTML Document. 1rem:16px. */
