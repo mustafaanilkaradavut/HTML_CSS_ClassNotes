@@ -52,4 +52,4 @@ body {
   font-size: 5rem;
 }
 
-/* Difference EM and REM : Family is important for EM but REM get the size from HTML Document. 1rem:16px. */
+/* Difference EM and REM : Family (Container) is important for EM but REM get the size from HTML Document. 1rem:16px. */

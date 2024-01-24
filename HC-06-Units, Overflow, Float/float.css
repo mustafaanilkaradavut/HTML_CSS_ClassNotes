@@ -1,0 +1,39 @@
+.img-float {
+  width: 40%;
+  float: left;
+}
+
+.par1 {
+  background-color: rgba(128, 128, 0, 0.801);
+  font-size: 2.2rem;
+}
+
+.par2 {
+  background-color: rgba(255, 0, 13, 0.392);
+  clear: both;
+  font-size: 2.2rem;
+}
+
+
+.container{
+    font-size: 2.2rem;
+    border: 10px solid red;    
+}
+
+.box{
+    float: left;
+}
+.box1{
+    background-color: aqua;
+}
+.box2{
+    background-color: blueviolet;
+}
+.box3{
+    background-color: crimson;
+}
+
+
+
+
+
