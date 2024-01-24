@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 2px black solid;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.container {
+  border: 2px black solid;
+  border-radius: 10px;
+  text-align: center;
+}
+
+header {
+  background-color: aqua;
+  margin-top: 10px;
+}
+
+main {
+  background-color: darkorange;
+  padding: 5px;
+  /* 
+  overflow: auto;
+  height: 350px; 
+  We don't prefer to use this way.
+  */
+}
+
+aside {
+  background-color: lawngreen;
+  height: 300px;
+  width: 25%;
+  float: left;
+  margin-left: 10px;
+}
+
+article {
+  background-color: cornflowerblue;
+  height: 300px;
+  width: 70%;
+  float: left;
+}
+
+footer {
+  background-color: deeppink;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
