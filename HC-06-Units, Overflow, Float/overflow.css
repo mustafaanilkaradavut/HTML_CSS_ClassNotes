@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  border: 5px solid green;
+  width: 20rem;
+  margin-bottom: 100px;
+  height: 4rem;
+  background-color: bisque;
+}
+
+.box1 {
+  overflow: visible;
+}
+.box2 {
+  overflow: hidden;
+}
+.box3 {
+  overflow: scroll;
+}
+.box4 {
+  overflow: auto;
+  height: 7rem;
+}
+.box5 {
+  /* overflow-x: auto;
+  overflow-y: hidden; */
+  overflow: auto;
+}
+
+.par1 {
+  background-color: aquamarine;
+  width: 70vh;
+}
+
+.box5::-webkit-scrollbar {
+  width: 0;
+  visibility: hidden;
+  display: none;
+  /* Three of them working for secret scroll bar for this pharagraf */
+}
