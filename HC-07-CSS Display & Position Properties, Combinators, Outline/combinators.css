@@ -7,37 +7,38 @@ div p {
 }
 
 p + div {
-  /* That's div that come after p */
+  /*! That's div that come after p */
   /* background-color: chartreuse; */
 }
 
 div + p {
-    /*That's p that come after div */
+  /*! That's p that come after div */
   /* background-color: aqua; */
 }
 
 div ~ p {
-    /* That's all p that come after div */
+  /*! That's all p that come after div */
   /* background-color: chocolate; */
 }
 
-h2[title="title1"]{
-    background-color: tomato;
+h2[title="title1"] {
+  background-color: tomato;
 }
 
-p[title="paragraph1"],p[title="paragraph2"]{
-    background-color: goldenrod;
+p[title="paragraph1"],
+p[title="paragraph2"] {
+  background-color: goldenrod;
 }
 
-h2[title="title2"]{
-    background-color: olivedrab;
+h2[title="title2"] {
+  background-color: olivedrab;
 }
 
-a[target="_blank"]{
-    background-color: cyan;
+a[target="_blank"] {
+  background-color: cyan;
 }
 
-p[title="paragraph1"]::first-letter{
-    font-size: 3rem;
-    color: aliceblue;
+p[title="paragraph1"]::first-letter {
+  font-size: 3rem;
+  color: aliceblue;
 }
