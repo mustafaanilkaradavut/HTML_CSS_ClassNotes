@@ -25,8 +25,8 @@
   text-align: center;
 }
 
-/* Margin Align  auto doesn't work because .span-container is a inline element. */
-/* You can NOT give width and height to inline elements! Margin and padding taken only left and right side*/
+/*! Margin Align  auto doesn't work because .span-container is a inline element. */
+/*! You can NOT give width and height to inline elements! Margin and padding taken only left and right side*/
 
 #span1 {
   border: 10px double red;

@@ -24,7 +24,7 @@
   background-position: center;
 }
 
-/* This code for scroll compatibility. We can dispose scroll bar. */
+/*! This code for scroll compatibility. We can dispose scroll bar. */
 .container::-webkit-scrollbar {
   display: none;
 }

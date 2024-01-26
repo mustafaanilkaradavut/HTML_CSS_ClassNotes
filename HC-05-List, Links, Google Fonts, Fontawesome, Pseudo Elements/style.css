@@ -12,8 +12,8 @@ ul.languages {
   list-style-type: circle;
   list-style-type: disc;
 
-  /* Madde imleri Li'lerin içinde mi yoksa dışında mı? */
-  /* Default olarak outside olarak gelir. Noktalama işaretleri dışarıdadır. Fakat inside yaparsak içeri girer. */
+  /*? Madde imleri Li'lerin içinde mi yoksa dışında mı? */
+  /*? Default olarak outside olarak gelir. Noktalama işaretleri dışarıdadır. Fakat inside yaparsak içeri girer. */
   list-style-position: inside;
 
   list-style-image: url(./images/house-solid.svg);
@@ -98,7 +98,7 @@ input:focus {
   border: 4px solid honeydew;
 }
 
-/* LINK PSUEDO CLASSES */
+/*! LINK PSUEDO CLASSES */
 
 nav.link a:link {
   color: red;
@@ -139,7 +139,7 @@ nav a i {
   font-size: 1.2rem;
 }
 
-/* ":" Class'larda var olan bir element üzerinden işlem yaparız. "::" bu yol ile var olmayan bir elementi oluşturup işlem yapabiliriz. */
+/*? ":" Class'larda var olan bir element üzerinden işlem yaparız. "::" bu yol ile var olmayan bir elementi oluşturup işlem yapabiliriz. */
 
 /*! PSUEDO ELEMENTS */
 
