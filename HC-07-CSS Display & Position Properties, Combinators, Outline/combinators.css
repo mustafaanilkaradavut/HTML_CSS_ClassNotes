@@ -42,3 +42,34 @@ p[title="paragraph1"]::first-letter {
   font-size: 3rem;
   color: aliceblue;
 }
+
+.out{
+  border: 2px solid red;
+  width: 8rem;
+  height: 8rem;
+  font-size: 1rem;
+  border-radius: 50%;
+  text-align: center;
+  margin: auto;
+  padding-top: 3rem;
+  box-sizing: border-box;
+}
+  
+
+.out:hover{
+  outline: 5px dashed black;
+  outline-offset: 0.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.cw{
+  border: 5px solid purple;
+  margin: 50px auto;
+  text-align: center;
+  width: 20rem;
+  border-top-right-radius: 5rem;
+  border-bottom-left-radius: 5rem;
+  outline: 5px solid green;
+  outline-offset: 0.5rem;
+}
