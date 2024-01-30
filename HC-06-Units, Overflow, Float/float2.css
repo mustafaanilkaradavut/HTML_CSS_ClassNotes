@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  border: 2px black solid;
+  border: 2px #00000000 solid;
   border-radius: 10px;
   text-align: center;
 }
@@ -18,12 +18,12 @@ header {
 }
 
 main {
-  background-color: darkorange;
+  background-color: #ff8c00;
   padding: 5px;
   /* 
   overflow: auto;
   height: 350px; 
-  !We don't prefer to use this way.
+  ..We don't prefer to use this way.
   */
 }
 
