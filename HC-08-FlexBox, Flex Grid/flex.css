@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1rem;
+}
+
+ul {
+  background-color: rebeccapurple;
+  list-style-type: none;
+  height: 50vh;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: row; /*..     Default */
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+ul * {
+  background-color: aqua;
+}
+
+ul li {
+  border-radius: 10px;
+  padding: 1rem;
+  border: 2px solid salmon;
+  /* margin: 1rem; */
+}
+
+.li1 {
+  order: 5;
+}
+
+.li2 {
+  order: 1;
+}
+
+.li3 {
+  order: 3;
+}
+
+.li4 {
+  order: 6;
+}
+
+.li5 {
+  order: 4;
+}
+
+.li6 {
+  order: 2;
+}
+
+
+
+/* ol {
+  background-color: olivedrab;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  background-color: cornflowerblue;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right{
+    background-color: deeppink;
+    width: 40%;
+} */
