@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  border: 2px solid red;
+  width: 80%;
+  margin: 50px auto;
+  border-radius: 1.5 rem;
+}
