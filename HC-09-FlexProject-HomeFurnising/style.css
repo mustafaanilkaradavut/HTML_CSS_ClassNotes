@@ -34,6 +34,8 @@ body {
   flex-wrap: wrap;
   margin-left: 3rem;
   border-bottom: 2px solid #d9d9d9;
+  flex-wrap: wrap;
+  /*__ Flex-wrap özelliği ekranı kaydırdığımızda bize elementlerimizin aşağı kaymasını sağlar.  */
 }
 
 .input-part {
@@ -97,4 +99,33 @@ body {
   padding: 10px;
 }
 
+/* -------------------------------------------------------------------------- */
+/*..                                 NAVBAR                                   */
+/* -------------------------------------------------------------------------- */
 
+.navbar {
+  display: flex; /*__   Yan yana getirmek için kullanırız. */
+  align-items: center;
+  padding: 10px 50px;
+  margin-left: 3rem;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  height: 40px;
+  font-size: 1.3rem;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  font-style: italic;
+  gap: 1rem; /*__ itemlerin arasını açmak için kullanırız.   */
+}
+
+.nav {
+}
+
+li {
+  display: inline-block;
+  margin-left: 1rem;
+}
