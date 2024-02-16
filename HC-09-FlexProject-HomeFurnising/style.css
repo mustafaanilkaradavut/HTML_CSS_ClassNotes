@@ -183,5 +183,31 @@ header {
   padding: 2rem;
 }
 
+/* -------------------------------------------------------------------------- */
+/*..                               CATEGORIES                                 */
+/* -------------------------------------------------------------------------- */
 
+.categorySection {
+  background-color: #aea08d;
+}
 
+.categoryPart {
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+
+.categories {
+}
+
+.category {
+  width: 20rem;
+  height: 20rem;
+  margin: 1rem;
+  background-color: #eeecec;
+}
+
+.category img {
+  width: 100%;
+  height: 100%;
+  padding: 1rem 10px 1rem 1rem;
+}
