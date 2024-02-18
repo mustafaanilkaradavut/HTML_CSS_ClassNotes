@@ -122,8 +122,7 @@ body {
   gap: 1rem; /*__ itemlerin arasını açmak için kullanırız.   */
 }
 
-.nav {
-}
+
 
 li {
   display: inline-block;
@@ -333,9 +332,6 @@ span {
   align-items: center;
 }
 
-.left {
-  /* background-color: red; */
-}
 
 .policy {
   /* background-color: blue; */
