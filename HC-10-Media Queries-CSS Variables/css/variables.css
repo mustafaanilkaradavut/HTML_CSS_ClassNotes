@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+@import "./themes.css";
+:root {
+    /*__        COLORS */
+    --white: #ececec
+    --orange: #d7c6a5;
+    --orange-dark: #f1a10b;
+    --blue: rgb(20, 112, 203);
+    --blue-dark: rgb(0, 229, 255);
+    --green: rgb(128, 197, 128);
+    --green-dark: green;
+    
+    /*__        FONT */
+    --ff-kodemono: "Kode Mono", monospace;
+
+    /*__        FONT SIZES */
+    --fs-lg:1.4rem;
+    --fs-xl:2rem;
+    --fs-xxl:3rem;
+
+    /*__        COLOR PALETTE  */
+    --green1:#042940;
+    --green2:#005C53;
+    --green3:#9FC131;
+    --green4:#DBF227;
+    --green5:#D6D58E;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  background-color: var(--white);
+  font-family: var(--ff-kodemono);
+}
+
+h1 {
+  background-color: var(--blue);
+  font-size: var(--fs-xxl);
+}
+
+p {
+  background-color: var(--blue-dark);
+  color: var(--orange-dark);
+  font-size: var(--fs-lg);
+}
+
+.container {
+  border: 2px solid black;
+  width: 500px;
+  height: 300px;
+  color: var(--orange);
+}
+
+.container .light {
+  /* background-color: var(--green); */
+  width: 150px;
+  height: 150px;
+  background-color: var(--green5);
+  font-size: var(--fs-xxl);
+  font-family: var(--ff-prosto);
+}
+
+.container .dark{
+    /* background-color: var(--green-dark); */
+    width: 150px;
+    height: 150px;
+    background-color: var(--green1);
+    font-size: var(--fs-xxl);
+    font-family: var(--ff-pt);
+}
