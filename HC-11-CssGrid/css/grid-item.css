@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+}
+
+.container {
+  height: 100vh; /*__ VH değeri veririz GTRows değerleri verebilmek için.   */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(5, 1fr);
+  /* gap: 1rem; */
+}
+
+.content {
+  border: 2px solid;
+  background-color: darkkhaki;
+  /* box-shadow: 5px 5px 5px black; */
+}
+
+/* .content:active {
+  box-shadow: 0 0 0 black;
+  transform: scale(0.96);
+  background-color: red;
+} */
+
+.content1 {
+  background-color: red;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.content2 {
+  background-color: goldenrod;
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
