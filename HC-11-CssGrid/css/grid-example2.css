@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 250px 1fr 4fr 1fr;
+}
+
+header {
+  background-color: greenyellow;
+  grid-column: span 12;
+}
+
+header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+nav {
+  background-color: red;
+  grid-column: span 12;
+  display: grid;
+  place-items: center;
+  font-size: 3rem;
+}
+aside {
+  background-color: gold;
+  grid-column: span 3;
+  display: grid;
+  place-content: center;
+}
+main {
+  background-color: fuchsia;
+  grid-column: span 9;
+}
+footer {
+  background-color: teal;
+  grid-column: span 12;
+  display: flex;
+}
+
+.fb {
+  background-color: blue;
+  color: yellow;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gs {
+  background-color: red;
+  color: yellow;
+  flex: 1;
+  display: grid;
+  place-content: center;
+}
