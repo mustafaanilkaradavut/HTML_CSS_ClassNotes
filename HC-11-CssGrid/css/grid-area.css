@@ -11,6 +11,7 @@
     "header header header"
     "sidebar main aside"
     "footer footer footer";
+  justify-content: center; /*__ Yatay'da ortalamak için kullanırız. */
 }
 
 .content {
@@ -37,4 +38,12 @@
 .content5 {
   background-color: slateblue;
   grid-area: sidebar;
+}
+
+.wrapper {
+  border: 2px solid red;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
