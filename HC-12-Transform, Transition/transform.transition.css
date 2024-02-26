@@ -1,0 +1,30 @@
+.sentence {
+  text-align: center;
+  font-size: 2rem;
+  margin: 2rem;
+  width: 50vw;
+}
+
+.sentence1 {
+  background-color: chartreuse;
+}
+
+.sentence2 {
+  background-color: coral;
+}
+
+.sentence3 {
+  background-color: dodgerblue;
+}
+
+.sentence4 {
+  background-color: goldenrod;
+}
+
+.sentence5 {
+  background-color: darkorchid;
+}
+
+.sentence6 {
+  background-color: mediumvioletred;
+}
