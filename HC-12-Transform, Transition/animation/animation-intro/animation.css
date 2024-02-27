@@ -1,0 +1,41 @@
+.outher {
+  background-color: aqua;
+  width: 500px;
+  height: 500px;
+}
+
+.inner {
+  background-color: darkgoldenrod;
+  width: 50%;
+  height: 50%;
+  /*__  animation: name | duration | timing-function | delay | iteration-count | direction | fill-mode */
+  animation-name: travel;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+  animation-iteration-count: 3;
+  animation-direction: alternate;
+  animation-fill-mode: both;
+
+  /*.. Hepsini tek satırda yazabilmek için aşağıdaki yöntemi kullanırız. */
+  /*? animation: travel 1s ease 3s infinite alternate backwards; */
+}
+
+@keyframes travel {
+  0% {
+    transform: translate(0);
+    background-color: yellow;
+  }
+  25% {
+    transform: translateY(100%);
+    border-radius: 50%;
+  }
+  50% {
+    transform: translate(100%, 100%);
+    border-radius: 50%;
+  }
+  100% {
+    transform: translateX(100%);
+    background-color: red;
+  }
+}
