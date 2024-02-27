@@ -1,3 +1,7 @@
+body {
+  height: 200vh;
+}
+
 .sentence {
   text-align: center;
   font-size: 2rem;
@@ -27,4 +31,115 @@
 
 .sentence6 {
   background-color: mediumvioletred;
+}
+
+/*  -------------------------------------------------------------------------- */
+/* !                             TRANSFORM ROTATE                              */
+/* - ------------------------------------------------------------------------- */
+
+/*__ Rotate içinde degree(deg) olarak değer verilir. */
+/*__ 90 ve 270 derecelerde yazılar tam dik olduklarından ve 3 boyutlu olarak bakamadığımız için gözükmezler. */
+
+.sentence1 {
+  transform: rotateX(180deg);
+}
+
+.sentence1:active + .sentence2 {
+  background-color: goldenrod;
+}
+
+.sentence2 {
+  transform: rotateY(180deg);
+}
+
+.sentence3 {
+  transform: rotate(30deg);
+  transform-origin: right; /*__ Hangi noktadan itibaren hareket istiyorsan onu belirteremek / sabitlemek için yaparız. */
+}
+
+/*  -------------------------------------------------------------------------- */
+/* !                              TRANSFORM SCALE                              */
+/*  -------------------------------------------------------------------------- */
+
+.sentence4 {
+  transform: scaleX(3.5);
+}
+
+.sentence5 {
+  transform: scaleY(2);
+}
+
+.sentence6:active {
+  transform: scale(3);
+}
+
+img {
+  transform: skew(200deg, 200deg);
+}
+
+/*  -------------------------------------------------------------------------- */
+/* !                              TRANSFORM SCALE                              */
+/*  -------------------------------------------------------------------------- */
+
+.box {
+  background-color: crimson;
+  width: 100px;
+  height: 50px;
+  margin: 2px;
+}
+
+.x {
+  transition-property: transform, background-color; /*__ Veya all seçeneği ile hepsini seçebiliriz.  */
+  transition-duration: 2s;
+  transition-timing-function: cubic-bezier(1, -0.5, 0.47, 1.68);
+  /*__  inspect > Choose Container - Find Timing Function at Style */
+}
+
+.x:active {
+  transform: translateX(550px);
+  background-color: antiquewhite;
+  background-color: orange;
+  width: 300px;
+}
+
+.y {
+  transition: all 2s ease-in-out;
+}
+
+.y:active {
+  background-color: blue;
+  transform: translateY(120px);
+}
+
+.xy {
+  transition-property: all;
+  transition-duration: 4s;
+}
+
+.xy:active {
+  transform: translate(100px, 50px);
+  background-color: aqua;
+  width: 200px;
+  height: 100px;
+}
+
+.btn-div {
+  text-align: center;
+}
+
+.btn {
+  background-color: fuchsia;
+  padding: 20px;
+  font-size: 2rem;
+  border-radius: 5px;
+  border: none;
+  transition-property: background-color;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+}
+
+.btn:active {
+  background-color: cornflowerblue;
+  color: brown;
+  transform: scale(95%);
 }
