@@ -28,3 +28,13 @@
 .nav-link:hover {
   color: var(--primary-color) !important;
 }
+
+.carousel-caption {
+  border: 5px solid blue !important;
+  bottom: 40%;
+}
+
+.carousel-caption .btn {
+  background-color: #bc6c25;
+  border: none;
+}
