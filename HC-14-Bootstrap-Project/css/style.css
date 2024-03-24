@@ -8,8 +8,13 @@
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
+/*!   NAVBAR   */
+
 .navbar {
   background-color: transparent !important;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
 }
 
 .navbar .container {
@@ -29,12 +34,56 @@
   color: var(--primary-color) !important;
 }
 
+/*!   CAROUSEL   */
+
+.carousel-item {
+  height: 100vh;
+}
+
+.carousel-item img {
+  height: 100%;
+  object-fit: cover;
+}
+
 .carousel-caption {
-  border: 5px solid blue !important;
   bottom: 40%;
 }
 
 .carousel-caption .btn {
   background-color: #bc6c25;
   border: none;
+  width: 10rem;
+  white-space: nowrap;
+  color: white;
+  font-weight: bold;
+}
+
+.carousel-caption .btn:first-child {
+  background-color: transparent;
+}
+
+.hero {
+  position: relative;
+  z-index: 3;
+}
+
+.black {
+  width: 350px;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.628);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(40deg);
+  z-index: 2;
+}
+
+.carousel-indicators {
+  /*__ display: flex; ----> Bunu demeden bu varmış gibi kullanabiliriz otomatik bu değer tanımlıdır. */
+  gap: 0.7rem !important;
+}
+.carousel-indicators button {
+  background-color: var(--primary-color) !important;
+  padding: 0.1rem !important;
+  width: 3rem !important;
 }
