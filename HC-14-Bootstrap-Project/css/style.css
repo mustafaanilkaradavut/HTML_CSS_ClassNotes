@@ -130,3 +130,32 @@ section#people {
 section#people .container {
   background-color: var(--secondary-color);
 }
+
+section#people .card {
+  background-color: var(--primary-color);
+  transition: all 0.5s;
+  /*__ Transition ile geçişlerin hızını ayarlarız. */
+  overflow: hidden;
+  /*__ Taşmaları önlemek için overflow hidden veririz. */
+}
+
+section#people .card:hover {
+  transform: scale(1.05);
+  /*__ Geçişlerin boyutunu ve büyüklüğünü ayarlarız.  */
+}
+
+section#people .card img {
+  transition: all 0.5s;
+}
+
+section#people .card img:hover {
+  transform: scale(1.1);
+}
+
+section#people i {
+  transition: all 0.5s;
+}
+
+section#people i:hover {
+  opacity: 0.5;
+}
