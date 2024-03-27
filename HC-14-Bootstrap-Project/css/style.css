@@ -62,6 +62,10 @@
 .carousel-caption .btn:first-child {
   background-color: transparent;
 }
+.carousel-caption .btn:first-child:hover {
+  background-color: white;
+  color: black;
+}
 
 .hero {
   position: relative;
@@ -218,4 +222,10 @@ input::placeholder {
   filter: grayscale(100%);
   /*__ Gri görüntüyü elde etmek için bu işlemi yaparız. */
   border-radius: 20px;
+}
+
+/*!   FOOTER   */
+
+footer {
+  background-color: var(--primary-color);
 }
