@@ -173,5 +173,49 @@ section#menu button {
 
 section#menu .container {
   background-color: var(--primary-color) !important;
-  margin-right: 1rem;
+}
+
+section#menu .menu#header {
+  color: var(--primary-color);
+}
+
+/*!   CONTACT   */
+
+section#contact {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(188, 108, 37, 1)
+    ),
+    url(../img/slider2.jpg);
+  background-repeat: cover;
+  background-position: center;
+}
+
+section#contact input,
+section#contact textarea {
+  background-color: inherit;
+}
+section#contact input:focus,
+section#cantact textarea:focus {
+  background-color: var(--primary-color);
+}
+
+label {
+  color: white !important;
+  font-style: italic;
+}
+
+textarea {
+  resize: none;
+  height: 100px !important;
+}
+input::placeholder {
+  color: white !important;
+}
+
+.google-map {
+  filter: grayscale(100%);
+  /*__ Gri görüntüyü elde etmek için bu işlemi yaparız. */
+  border-radius: 20px;
 }

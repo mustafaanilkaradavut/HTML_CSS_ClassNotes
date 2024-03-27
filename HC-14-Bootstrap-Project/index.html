@@ -345,12 +345,12 @@
     <!--!                              OUR MENU                                  -->
     <!-- ----------------------------------------------------------------------- -->
 
-    <section id="menu" class="py-5 bg-info">
+    <section id="menu" class="py-5">
       <div class="menu-header text-center">
-        <h1>OUR MENU</h1>
+        <h1 class="py-5">OUR MENU</h1>
       </div>
 
-      <div class="container">
+      <div class="container py-5 rounded-3">
         <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
           <li class="nav-item" role="presentation">
             <button
@@ -360,7 +360,7 @@
               data-bs-target="#pills-coffee"
               type="button"
               role="tab"
-              aria-controls="pills-coffee"
+              aria-controls="pills-home"
               aria-selected="true">
               Coffee
             </button>
@@ -373,7 +373,7 @@
               data-bs-target="#pills-food"
               type="button"
               role="tab"
-              aria-controls="pills-food"
+              aria-controls="pills-profile"
               aria-selected="false">
               Food
             </button>
@@ -386,7 +386,7 @@
               data-bs-target="#pills-dessert"
               type="button"
               role="tab"
-              aria-controls="pills-dessert"
+              aria-controls="pills-contact"
               aria-selected="false">
               Dessert
             </button>
@@ -399,37 +399,225 @@
             role="tabpanel"
             aria-labelledby="pills-home-tab"
             tabindex="0">
-            <div class="row">
+            <div class="row row-gap-3">
               <div class="col-12 col-md-6 col-lg-3">
-                <img src="./img/menu/coffee/1_dalgona.webp" alt="" />
+                <a data-fslightbox href="./img/menu/coffee/1_dalgona.webp">
+                  <img
+                    class="img-thumbnail"
+                    width="100%"
+                    src="./img/menu/coffee/1_dalgona.webp"
+                    alt="" />
+                </a>
+                <h6 class="text-center fs-4">Dalgona</h6>
               </div>
               <div class="col-12 col-md-6 col-lg-3">
-                <img src="./img/menu/coffee/2_turkish.webp" alt="" />
+                <a data-fslightbox href="./img/menu/coffee/2_turkish.webp">
+                  <img
+                    class="img-thumbnail"
+                    width="100%"
+                    src="./img/menu/coffee/2_turkish.webp"
+                    alt="" />
+                </a>
+                <h6 class="text-center fs-4">Turkish</h6>
               </div>
               <div class="col-12 col-md-6 col-lg-3">
-                <img src="./img/menu/coffee/3_latte.webp" alt="" />
+                <a data-fslightbox href="./img/menu/coffee/3_latte.webp">
+                  <img
+                    class="img-thumbnail"
+                    width="100%"
+                    src="./img/menu/coffee/3_latte.webp"
+                    alt="" />
+                </a>
+                <h6 class="text-center fs-4">Latte</h6>
               </div>
               <div class="col-12 col-md-6 col-lg-3">
-                <img src="./img/menu/coffee/4_magic.webp" alt="" />
+                <a data-fslightbox href="./img/menu/coffee/4_magic.webp">
+                  <img
+                    class="img-thumbnail"
+                    width="100%"
+                    src="./img/menu/coffee/4_magic.webp"
+                    alt="" />
+                </a>
+                <h6 class="text-center fs-4">Magic</h6>
               </div>
             </div>
-            Macaron
           </div>
           <div
             class="tab-pane fade"
-            id="pills-profile"
+            id="pills-food"
             role="tabpanel"
-            aria-labelledby="pills-food-tab"
+            aria-labelledby="pills-profile-tab"
             tabindex="0">
-            Macaron
+            <div class="row row-gap-3">
+              <div class="col-12 col-md-6 col-lg-3">
+                <a data-fslightbox href="./img/menu/food/1_steak.webp">
+                  <img
+                    class="img-thumbnail"
+                    width="100%"
+                    src="./img/menu/food/1_steak.webp"
+                    alt="" />
+                </a>
+                <h6 class="text-center fs-4">Steak</h6>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <a data-fslightbox href="./img/menu/food/2_italian.webp">
+                  <img
+                    class="img-thumbnail"
+                    width="100%"
+                    src="./img/menu/food/2_italian.webp"
+                    alt="" />
+                </a>
+                <h6 class="text-center fs-4">İtalian</h6>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <a
+                  data-fslightbox
+                  href="./img/menu/food/3_summer-squash-pizza.webp">
+                  <img
+                    class="img-thumbnail"
+                    width="100%"
+                    src="./img/menu/food/3_summer-squash-pizza.webp"
+                    alt="" />
+                </a>
+                <h6 class="text-center fs-4">Squash Pizza</h6>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <a data-fslightbox href="./img/menu/food/4_peanut-butter.webp">
+                  <img
+                    class="img-thumbnail"
+                    width="100%"
+                    src="./img/menu/food/4_peanut-butter.webp"
+                    alt="" />
+                </a>
+                <h6 class="text-center fs-4">Peanut Toast</h6>
+              </div>
+            </div>
           </div>
           <div
             class="tab-pane fade"
-            id="pills-contact"
+            id="pills-dessert"
             role="tabpanel"
-            aria-labelledby="pills-dessert-tab"
+            aria-labelledby="pills-contact-tab"
             tabindex="0">
-            Macaron
+            <div class="row row-gap-3">
+              <div class="col-12 col-md-6 col-lg-3">
+                <a data-fslightbox href="./img/menu/dessert/1_corn-cake.webp">
+                  <img
+                    class="img-thumbnail"
+                    width="100%"
+                    src="./img/menu/dessert/1_corn-cake.webp"
+                    alt="" />
+                </a>
+                <h6 class="text-center fs-4">Corn Cake</h6>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <a data-fslightbox href="./img/menu/dessert/2_gigerbread.webp">
+                  <img
+                    class="img-thumbnail"
+                    width="100%"
+                    src="./img/menu/dessert/2_gigerbread.webp"
+                    alt="" />
+                </a>
+                <h6 class="text-center fs-4">Gingerbread Cake</h6>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <a
+                  data-fslightbox
+                  href="./img/menu/dessert/3_Grape_almond.webp">
+                  <img
+                    class="img-thumbnail"
+                    width="100%"
+                    src="./img/menu/dessert/3_Grape_almond.webp"
+                    alt="" />
+                </a>
+                <h6 class="text-center fs-4">Grape Almond</h6>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <a
+                  data-fslightbox
+                  href="./img/menu/dessert/4_LemonMeringue.webp">
+                  <img
+                    class="img-thumbnail"
+                    width="100%"
+                    src="./img/menu/dessert/4_LemonMeringue.webp"
+                    alt="" />
+                </a>
+                <h6 class="text-center fs-4">Lemon Meringue</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--!                              CONTACT                                   -->
+    <!-- ----------------------------------------------------------------------- -->
+
+    <section id="contact" class="py-5">
+      <div class="contact-header text-center text-white">
+        <h1>CONTACT</h1>
+      </div>
+
+      <div class="container">
+        <div class="row align-items-center row-gap-5">
+          <div class="col-12 col-lg-6 form-container">
+            <form class="row g-3">
+              <div class="col-md-6">
+                <label
+                  for="inputEmail4"
+                  class="form-label fst-italic text-white"
+                  >Name</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputEmail4"
+                  placeholder="Name of Customer" />
+              </div>
+              <div class="col-md-6">
+                <label
+                  for="inputPassword4"
+                  class="form-label fst-italic text-white"
+                  >Email</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="inputPassword4"
+                  placeholder="Email of Customer" />
+              </div>
+              <div class="col-12">
+                <label
+                  for="inputAddress"
+                  class="form-label fst-italic text-white"
+                  >Address</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputAddress"
+                  placeholder="Your Address" />
+              </div>
+              <div class="form-floating">
+                <textarea
+                  class="form-control"
+                  placeholder="Leave a comment here"
+                  id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Enter Your Comments</label>
+              </div>
+            </form>
+          </div>
+          <div class="col-12 col-lg-6 order-1 location">
+            <iframe
+              class="google-map"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d114332.30117731099!2d-96.57441064914843!3d32.86161313001312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1708371518774!5m2!1sen!2sus"
+              width="100%"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </div>
@@ -439,5 +627,6 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"></script>
+    <script src="./lib/fslightbox.js"></script>
   </body>
 </html>
