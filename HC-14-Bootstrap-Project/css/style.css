@@ -159,3 +159,19 @@ section#people i {
 section#people i:hover {
   opacity: 0.5;
 }
+
+/*!   MENU   */
+
+section#menu {
+  background-color: var(--secondary-color) !important;
+}
+
+section#menu button {
+  background-color: var(--primary-color) !important;
+  margin-right: 1rem;
+}
+
+section#menu .container {
+  background-color: var(--primary-color) !important;
+  margin-right: 1rem;
+}
