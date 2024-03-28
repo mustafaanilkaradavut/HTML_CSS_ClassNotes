@@ -1,1 +1,28 @@
-
+.nav {
+  height: 10vh;
+  //?   10vh verme sebebimiz, nav-footer bölümüne 10+10 home bölümüne 80 vererek 100vh'lık bir görüntü sağlamak.
+  padding: 1rem;
+  &__list {
+    //* & işareti koymak .nav__list bölümündeki .nav'ı karşılar.
+    text-align: right;
+    list-style-type: none;
+  }
+  &__item {
+    display: inline;
+    padding: 1rem;
+  }
+  &__link {
+    text-transform: uppercase;
+    font-size: 1rem;
+    text-decoration: none;
+    font-family: $font-family;
+    font-weight: 500;
+    @include soft(1s);
+    &:hover {
+      color: blue;
+    }
+    &--active {
+      color: $secondary-color;
+    }
+  }
+}
