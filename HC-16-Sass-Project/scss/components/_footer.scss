@@ -1,0 +1,23 @@
+/* -------------------------------------------------------------------------- */
+//..                                  FOOTER                                  */
+/* -------------------------------------------------------------------------- */
+
+.link-style {
+  a {
+    padding: 0.4rem;
+    @include soft(1s);
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+}
+
+footer.horizontal {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 1rem;
+  @extend .link-style;
+  //__ @extend ile daha önce yazılmış bir class'ı başka bir class içinde kullanabiliriz.
+}
