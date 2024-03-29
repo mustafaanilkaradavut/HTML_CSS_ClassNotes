@@ -11,11 +11,11 @@
 
 /* -------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------- */
-.link-style a, footer.vertical .social-icons a, footer.horizontal a {
+.link-style a, footer.middle a, footer.vertical .social-icons a, footer.horizontal a {
   padding: 0.4rem;
   transition: all 1s;
 }
-.link-style a:hover, footer.vertical .social-icons a:hover, footer.horizontal a:hover {
+.link-style a:hover, footer.middle a:hover, footer.vertical .social-icons a:hover, footer.horizontal a:hover {
   color: #ff652f;
 }
 
@@ -47,14 +47,12 @@ footer.vertical .copyright {
 }
 
 footer.middle {
-  border: 2px solid red;
   height: 20vh;
   display: flex;
   flex-direction: column;
   justify-content: flex start;
   align-items: center;
   gap: 1rem;
-  @ex;
 }
 
 .nav {
@@ -259,6 +257,4 @@ h1,
 h2,
 h3 {
   font-weight: 400;
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
